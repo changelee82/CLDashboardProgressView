@@ -21,9 +21,9 @@
     
     _progress.outerRadius = 110; // 外圈半径
     _progress.innerRadius = 95;  // 内圈半径
-    _progress.beginAngle = 90;    // 起始角度
-    _progress.blockAngle = 8;   // 每个进度块的角度
-    _progress.gapAngle = 2;     // 两个进度块的间隙的角度
+    _progress.beginAngle = 90;   // 起始角度
+    _progress.blockAngle = 8;    // 每个进度块的角度
+    _progress.gapAngle = 2;      // 两个进度块的间隙的角度
     _progress.progressColor = [UIColor greenColor]; // 进度条填充色
     _progress.trackColor    = [UIColor redColor];   // 进度条痕迹填充色
     _progress.outlineColor  = [UIColor grayColor];  // 进度条边框颜色
@@ -34,12 +34,12 @@
     _progress.maxValue = 100;    // 进度条最大数值
     _progress.currentValue = 10; // 进度条当前数值
     
-    _progress.showShadow = YES;  // 是否显示阴影
+    _progress.showShadow = YES;       // 是否显示阴影
     _progress.shadowOuterRadius = 85; // 阴影外圈半径
     _progress.shadowInnerRadius = 10; // 阴影内圈半径
     _progress.shadowFillColor = [[UIColor grayColor] colorWithAlphaComponent:0.3];   // 阴影颜色
     
-    _progress.autoAdjustAngle = YES;  // 自动调整角度
+    _progress.autoAdjustAngle = YES;  // 自动调整角度，使开口向下
     
     [self.view addSubview:_progress];
     
